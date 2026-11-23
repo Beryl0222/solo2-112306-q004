@@ -1,0 +1,58 @@
+{
+  "frame": "gripper-014",
+  "width": 5,
+  "height": 5,
+  "wavelet": "integer-lifting-v1",
+  "strips": [
+    {
+      "first_row": 0,
+      "rows": [
+        [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      ]
+    },
+    {
+      "first_row": 3,
+      "rows": [
+        [
+          6,
+          8,
+          10,
+          12,
+          14
+        ]
+      ],
+      "known_missing_rows": [
+        2
+      ]
+    },
+    {
+      "first_row": 4,
+      "rows": [
+        [
+          7,
+          9,
+          11,
+          13,
+          15
+        ]
+      ],
+      "sealed": true
+    }
+  ],
+  "preview_levels": [
+    1
+  ]
+}

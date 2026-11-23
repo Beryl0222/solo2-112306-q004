@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "fixture": "wavelet_tile",
+  "synthetic": true,
+  "records": [
+    "primary.json",
+    "revision.json"
+  ]
+}
