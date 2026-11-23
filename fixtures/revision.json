@@ -1,60 +1,58 @@
 {
-  "frame": "gripper-014",
-  "width": 5,
-  "height": 5,
-  "wavelet": "integer-lifting-v1",
-  "strips": [
+  "capture": "capture-4-b",
+  "events": [
     {
-      "first_row": 0,
-      "rows": [
-        [
-          2,
-          4,
-          6,
-          8,
-          10
-        ],
-        [
-          3,
-          5,
-          7,
-          9,
-          11
-        ]
+      "frame": "notch",
+      "known_missing_rows": [
+        12,
+        13,
+        14
       ]
     },
     {
-      "first_row": 3,
-      "rows": [
-        [
-          6,
-          8,
-          10,
-          12,
-          14
-        ]
-      ],
-      "known_missing_rows": [
+      "frame": "seam",
+      "seal": true
+    },
+    {
+      "frame": "notch",
+      "seal": true
+    },
+    {
+      "frame": "single",
+      "seal": true
+    }
+  ],
+  "reads": [
+    {
+      "frame": "notch",
+      "layer": 2,
+      "box": [
+        0,
+        0,
+        4,
         2
       ]
     },
     {
-      "first_row": 4,
-      "rows": [
-        [
-          7,
-          9,
-          11,
-          13,
-          15
-        ]
-      ],
-      "sealed": true
+      "frame": "notch",
+      "layer": 0,
+      "box": [
+        23,
+        3,
+        31,
+        7
+      ]
+    },
+    {
+      "frame": "seam",
+      "layer": 0,
+      "box": [
+        2,
+        2,
+        9,
+        8
+      ]
     }
   ],
-  "preview_levels": [
-    1
-  ],
-  "revision": "synthetic-revision-2",
-  "note": "用于说明资料发生修订，不包含预设的业务计算结论。"
+  "replaces": "capture-4-a"
 }
